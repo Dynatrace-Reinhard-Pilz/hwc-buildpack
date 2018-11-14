@@ -1,13 +1,13 @@
 ---
 language: hwc
 default_versions:
-- name: hwc
+- name: hwc_trace
   version: 13.0.0
 dependencies:
 - name: hwc
   version: 13.0.0
-  uri: https://buildpacks.cloudfoundry.org/dependencies/hwc/hwc-13.0.0-windows-amd64-634f6424.zip
-  sha256: 634f642428bb102968279a563b2a9c3f93843878a68db7d6d1a6e518a554cb12
+  uri: https://github.com/Dynatrace-Reinhard-Pilz/hwc/releases/download/dt-13.0.0/hwc-13.0.0-windows-amd64-634f6425.zip
+  sha256: 314657b55c5bc973bc8f643bec144efda6434cfe85461b4bed7498800a7f4e95
   cf_stacks:
   - windows2012R2
   - windows2016
